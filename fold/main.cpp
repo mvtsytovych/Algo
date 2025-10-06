@@ -3,8 +3,7 @@
 using namespace std;
 
 int main() {
-	while (true) {
-		int y, x, eq;
+	int y, x, eq;
 		cout << "Введіть y,x\n";
 		cin >> y >> x;
 
@@ -20,6 +19,4 @@ int main() {
 		else {
 			cout << "На лінії";
 		}
-		cout << endl << endl;
-	}
 }
