@@ -3,21 +3,23 @@
 using namespace std;
 
 int main() {
-	int x, y, eq;
-	cout << "Введіть y, x\n";
-	cin >> y>> x;
+	while (true) {
+		int y, x, eq;
+		cout << "Введіть y,x\n";
+		cin >> y >> x;
 
-	eq = 3 * x + 2;
+		eq = 3 * x + 2;
 
-	if (y > eq) {
-		cout << "вище прямої";
+		if (y > eq) {
+			cout << "вище лінії";
+		}
+		else if (y < eq)
+		{
+			cout << "нижче лінії";
+		}
+		else {
+			cout << "На лінії";
+		}
+		cout << endl << endl;
 	}
-	else if (y < eq)
-	{
-		cout << "нище прямої";
-	}
-	else {
-		cout << "на прямії";
-	}
-	
 }
