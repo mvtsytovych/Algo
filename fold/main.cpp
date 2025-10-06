@@ -4,7 +4,7 @@ using namespace std;
 //28, 16, 7
 int main() {
 	int x, y, eq;
-	cin >> y, x;
+	cin >> y>> x;
 
 	eq = 3 * x + 2;
 
